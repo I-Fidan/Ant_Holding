@@ -12,11 +12,11 @@ const About = () => {
     Aos.init({duration: 2000});
   },[])
 
-  const longText = ` Ant Group əvvəllər kimi tanınan Ant Maliyyə və Alipay , Çin ortaq şirkəti Alibaba Group . Qrup Çinin ən böyük rəqəmsal ödəniş platforma sahibi Alipay iyun 2020-ci ildə CN ¥ 118 trilyon çatan ümumi ödəniş həcmi (TPV) ilə bir milyard istifadəçilər və 80 milyon tacirlər xidmət,
+  const longText = ` Ant Group əvvəllər Ant Maliyyə və Alipay kimi tanınan  , Çin ortaq şirkəti Alibaba Group . Qrup Çinin ən böyük rəqəmsal ödəniş platforma sahibi Alipay iyun 2020-ci ildə CN ¥ 118 trilyon çatan ümumi ödəniş həcmi (TPV) ilə bir milyard istifadəçi və 80 milyon tacirlər xidmət,
    Mart 2019, Wall Street JournalAnt’ın flaqman Tianhong Yu'e Bao pul bazarı fondunun 588 milyondan çox istifadəçisi və ya Çin əhalisinin üçdə birindən çoxu ilə pul verən, dünyanın ən böyük fondu olduğunu bildirdi.
   2020-ci ilin oktyabrında Ant Group, o dövrdə dünyanın ən böyük IPO- sunda 34,5 milyard ABŞ dolları toplamağa qərar vermiş və şirkəti 313 milyard ABŞ dolları dəyərində qiymətləndirmişdi. IPO ərəfəsində Çin prosesi irəliləməsini dayandırdı.
   12 Aprel 2021-ci ildə The Wall Street Journal , Çin hökumətinin təzyiqi altında Ant Group'un Çinin dövlət tərəfindən idarə olunan mərkəzi bankının nəzarət etdiyi bir maliyyə holdinqinə çevriləcəyini bildirdi .
-   Sentyabr 2017-ci ildə Ant Group Sir ilə birgə müəssisə formalaşır Li Ka-Shing s ' CK Hutchison Holdings bir digital cüzdan xidmət başlamaq üçün Hong Kong . 2018-ci ilin iyun ayında şirkət,
+   Sentyabr 2017-ci ildə Ant Group Sir ilə birgə müəssisə formalaşır. 2018-ci ilin iyun ayında şirkət,
    Hong Kong və Filippinlər arasında real vaxtda pul köçürmələrini həyata keçirməyə imkan verəcək blok zəncirlə işləyən nağd pul köçürmə xidmətinə başladı.
 `
   return (
@@ -55,7 +55,7 @@ const About = () => {
       <div className='why-about' style={{backgroundImage:`url(${ImgWhy})`}}>
           <div data-aos="fade-right" className='why-txt'>
              <h3>Niyə məhz bizim şirkət? <i id='redicon' class="fas fa-times"></i></h3> 
-             <h3>İcazə verin məhz niyə bizimı işləməli olduğunuzu deyim <i id='greenicon' class="fas fa-check"></i></h3>
+             <h3>İcazə verin məhz niyə bizimlə işləməli olduğunuzu deyim <i id='greenicon' class="fas fa-check"></i></h3>
           </div>
           <div data-aos="fade-down"  className='why-txt-1'>
              <h3>Bizə biraz özünüz barədə danışın <i id='redicon' class="fas fa-times"></i></h3> 

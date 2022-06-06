@@ -11,7 +11,7 @@ import Images9 from "../images/images-9.jpg";
 export const MenuList = [
   {
     id:1,
-    name: "Futurustik ",
+    name: "Futuristik ",
     image: Images1,
     price: 500000.99,
     silme:<i class="fas fa-times"></i>,
@@ -29,7 +29,7 @@ export const MenuList = [
   },
   {
     id:3,
-    name: " Panaroma",
+    name: " Panorama",
     image: Images3,
     price: 450000.53,
     silme:<i class="fas fa-times"></i>,
