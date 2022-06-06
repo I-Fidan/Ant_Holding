@@ -26,6 +26,7 @@
   font-weight: 500;
   font-size: 50px;
   margin-left: 30px;
+  margin-bottom: 0px;
 }
 
 form {
@@ -75,7 +76,7 @@ form button {
   overflow: hidden;
   z-index: 0;
 
-  margin-top: 40px;
+  margin-top: 25px;
   width: 140px;
   height: 40px;
   border: none;
